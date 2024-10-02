@@ -1,0 +1,43 @@
+.principal {
+  background-color: var(--secundario);
+  padding: 5rem 0;
+}
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 30%;
+}
+
+.enlaces ul {
+  list-style: none;
+}
+
+.enlaces ul li a {
+  text-decoration: none;
+  color: var(--fuente);
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+.redes .fa-brands {
+  color: var(--primario);
+}
+
+.fa-brands {
+  font-size: 2rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}

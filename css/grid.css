@@ -1,0 +1,15 @@
+@import url(./generales.css);
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card:nth-child(even){
+    background-color: aqua;
+}
